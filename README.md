@@ -1,5 +1,5 @@
 # Polling App Changes
-Homepage: index.html
+Homepage: index.html <br/>
 Take a Poll: take.html
 Create & Manage Polls: manage/polls.html
 Edit Poll: manage/polls/create-poll.html
