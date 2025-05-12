@@ -75,6 +75,8 @@
   },
   "dependencies": {
     "axe-core": "^4.3.5",
+    "chart.js": "^4.4.9",
+    "chartjs-chart-wordcloud": "^4.4.4",
     "coffeescript": "^2.6.1",
     "d": "^1.0.1",
     "gsap": "^3.12.5",

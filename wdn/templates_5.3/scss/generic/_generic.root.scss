@@ -78,6 +78,10 @@
   --b-tabs-panel: #{$border-color-tabs-panel};
 
   // Colors
+  --banner-bg: #FEFDFA;
+  --input-bg: #242423;
+  --input-text: #ffffff;
+  --banner-text: #D00000;
   --active: #{$color-active-light-mode};
   --badge: #{$color-badge-light-mode};
   --body: #{$color-body-light-mode};
@@ -241,6 +245,10 @@
     --b-tabs-panel: #{$border-color-tabs-panel};
 
     // Colors
+    --banner-bg: #242423;
+    --input-bg: #FEFDFA;
+    --input-text: #000000;
+    --banner-text: #FF6B6B;
     --active: #{$color-active-dark-mode};
     --badge: #{$color-badge-dark-mode};
     --body: #{$color-body-dark-mode};
