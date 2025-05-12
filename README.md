@@ -1,3 +1,14 @@
+# Polling App Changes
+Homepage: index.html
+Take a Poll: take.html
+Create & Manage Polls: manage/polls.html
+Edit Poll: manage/polls/create-poll.html
+Instructor Results View: manage/polls/results.html *relies on chart-init.js mocks
+Student Result View: results/poll.html
+Student Results Table: results/results.html
+
+
+
 # UNL WDN Templates
 
 The template files are developed and maintained by the [Web Developer Network](https://wdn.unl.edu/) (WDN) at the [University of Nebraska-Lincoln](https://www.unl.edu/). These templates are made up of HTML, CSS and JavaScript to power the underlying web presence.
