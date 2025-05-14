@@ -7,7 +7,23 @@
 **Student Result View**: results/poll.html <br/> <br/>
 **Student Results Table**: results/results.html <br/> <br/>
 
+**Homepage**
+![Homepage](Homepage.jpg)
 
+**Cards**
+![Cards](Cards.jpg)
+
+**Polling Table**
+![Polling Table](Polling-Table.jpg)
+
+**Questions Table**
+![Question Table](Question-Table.jpg)
+
+**Instructor Results**
+![Instructor Results](Instructor-Results.jpg)
+
+**Student Results**
+![Student Results](Student-Results.jpg)
 
 # UNL WDN Templates
 
