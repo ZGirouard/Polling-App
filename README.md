@@ -21,10 +21,10 @@
 <br><br/><br/>
 **Instructor Results**
 ![Instructor Results](Instructor-Results.jpg)
-
+<br/><br/><br/>
 **Student Results**
 ![Student Results](Student-Results.jpg)
-
+<br/><br/><br/>
 # UNL WDN Templates
 
 The template files are developed and maintained by the [Web Developer Network](https://wdn.unl.edu/) (WDN) at the [University of Nebraska-Lincoln](https://www.unl.edu/). These templates are made up of HTML, CSS and JavaScript to power the underlying web presence.
