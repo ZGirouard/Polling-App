@@ -7,18 +7,18 @@
 **Student Result View**: results/poll.html <br/> <br/>
 **Student Results Table**: results/results.html <br/> <br/>
 
-**Homepage**<br/><br/>
+**Homepage**<br/>
 ![Homepage](Homepage.jpg)
-<br><br/><br/>
+<br/><br/><br/>
 **Cards**
 ![Cards](Cards.jpg)
-
+<br/><br/><br/>
 **Polling Table**
 ![Polling Table](Polling-Table.jpg)
-
+<br/><br/><br/>
 **Questions Table**
 ![Question Table](Question-Table.jpg)
-
+<br><br/><br/>
 **Instructor Results**
 ![Instructor Results](Instructor-Results.jpg)
 
