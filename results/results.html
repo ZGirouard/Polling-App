@@ -95,6 +95,19 @@
       z-index: 0;
     }
 
+    .table-responsive {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                width: 100%;
+
+            }
+
+      .custom-table{
+          width: max-content;
+          white-space: nowrap;
+      }
+
+
     .banner-container::before {
       content: "";
       position: absolute;
@@ -406,7 +419,7 @@
                     <div class="dcf-hero-group-2"></div></div>
                     <div class="dcf-main-content dcf-pb-5 dcf-pt-5">
                         <div class="dcf-wrapper">
-                            <div class="dcf-mb-4">
+                            <div class="table-responsive dcf-mb-4">
                                 <table id="poll-table" class="custom-table dataTable"><thead id="custom-table-head"><tr>
                                     <th scope="col">Name</th>
                                     <th scope="col">Type</th>
