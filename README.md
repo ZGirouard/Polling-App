@@ -7,9 +7,9 @@
 **Student Result View**: results/poll.html <br/> <br/>
 **Student Results Table**: results/results.html <br/> <br/>
 
-**Homepage**<br>
+**Homepage**<br/><br/>
 ![Homepage](Homepage.jpg)
-<br>
+<br><br/>
 **Cards**
 ![Cards](Cards.jpg)
 
