@@ -22,13 +22,6 @@
                 border-color: var(--b);
             }
 
-            .table-responsive {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                width: 100%;
-
-            }
-
             .custom-table{
                 width: max-content;
                 white-space: nowrap;
@@ -395,8 +388,8 @@
                       </form>
                     </div>
                     <div class="dt-container dt-layout-row dt-layout-table table-container">
-                      <div class="table-responsive dt-layout-cell  dt-layout-full">
-                          <table id="poll-table" class="custom-table dataTable dtr-inline" aria-describedby="poll-table_info" style="width: 100%;">
+                      <div class="dcf-overflow-x-auto dt-layout-cell  dt-layout-full">
+                          <table id="poll-table" class="custom-table dcf-table dataTable dtr-inline" aria-describedby="poll-table_info" style="width: 100%;">
                               <colgroup>
                                   <col data-dt-column="0" style="width: 60%;">
                                   <col data-dt-column="1" style="width: 40%;">

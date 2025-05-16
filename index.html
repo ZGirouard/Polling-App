@@ -873,6 +873,8 @@
             }
 
             /* Custom Classes */
+
+            /* Line that extends behind cards */
             .decorative-line {
             position: absolute;
             top: 30%;
@@ -887,50 +889,45 @@
             .decorative-line {
                 filter: invert(60%);
             }
-        }
+            }
+
+            /* Remove banner decoration at smaller screen sizes */
             @media (max-width: 900px) {
                       .banner-decoration{
                         display: none;
                       }
                 }
-
-                .banner-container {
-                position: relative;
-                background-color: #FEFDFA;
-                padding: 20px;
-                display: flex;
-                align-items: center;
-                overflow: hidden;
-                }
-
-                .banner-heading {
-                color: #D00000;
-                margin: 0;
-                padding-left: 10%;
-                padding-right: 20px;
-                }
-
-                .banner-form-wrapper {
-                display: flex;
-                align-items: center;
-                }
-
-                .banner-decoration {
-                position: absolute;
-                right: 15%;
-                top: 50%;
-                transform: translateY(-50%);
-                z-index: 0;
-                }
-
-            .card-icon{
-                width: 30px !important;
-                height: 30px !important;
+            
+            /* Banner styling */
+            .banner-container {
+            position: relative;
+            background-color: #FEFDFA;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
             }
 
-            .intro-paragraph {
-                width: 70%;
+            .banner-heading {
+            color: #D00000;
+            margin: 0;
+            padding-left: 10%;
+            padding-right: 20px;
             }
+
+            .banner-form-wrapper {
+            display: flex;
+            align-items: center;
+            }
+
+            .banner-decoration {
+            position: absolute;
+            right: 15%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 0;
+            }
+
             .banner-button{
                 background-color: #D00000; 
                 color: #FEFDFA; 
@@ -942,6 +939,16 @@
                 border-color: #a00000;
             }
 
+            /* Card styling */
+            .card-icon{
+                width: 30px !important;
+                height: 30px !important;
+            }
+
+            /* Limit width on intro paragraph */
+            .intro-paragraph {
+                width: 70%;
+            }
         </style>
         <link rel="stylesheet" href="/wdn/templates_5.3/css/main.css?dep=5.3.54" media="print" onload="this.media='all'">
         <noscript>

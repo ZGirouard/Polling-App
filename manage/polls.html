@@ -875,13 +875,6 @@
 
             /* Custom Classes */
 
-            .table-responsive {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-                width: 100%;
-
-            }
-
             .custom-table{
                 width: max-content;
             }
@@ -900,6 +893,7 @@
             .btn-icon[data-tooltip] {
             position: relative;
             }
+
             .btn-icon[data-tooltip]::after {
             content: attr(data-tooltip);
             position: absolute;
@@ -916,10 +910,12 @@
             border-radius: 0.25em;
             margin-top: 0.5em;
             }
+
             .btn-icon[data-tooltip]:hover::after {
             opacity: 1;
             }
 
+            /* Color markers for each poll */
             .poll-status {
             position: relative;
             }
@@ -958,7 +954,41 @@
                 background-color: var(--bg-body);
             }
 
+            /* Align top buttons at smaller screen sizes */
+            @media (max-width: 767px) {
+            #poll-table_wrapper .dt-layout-row {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: stretch; 
+            }
 
+            #poll-table_wrapper .dt-layout-start {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: stretch;
+            }
+            #poll-table_wrapper .dt-layout-end {
+                width: 100%;
+            }
+
+            #poll-table_wrapper .dt-layout-start > .dcf-btn,
+            #poll-table_wrapper .dt-layout-start > .dt-length,
+            #poll-table_wrapper .dt-search {
+                width: 100% !important;
+                margin-bottom: 1rem;    
+            }
+
+            #poll-table_wrapper .dt-length label,
+            #poll-table_wrapper .dt-search label {
+                display: block;
+                margin-bottom: .5rem;
+            }
+
+            #poll-table_wrapper .dt-length select,
+            #poll-table_wrapper .dt-search input {
+                width: 100%;
+            }
+            }
         </style>
         <link rel="stylesheet" href="/wdn/templates_5.3/css/main.css?dep=5.3.54" media="print" onload="this.media='all'">
         <noscript>
@@ -1419,7 +1449,7 @@
                                     </div>
                                 </div>
                                 <div class="dt-layout-row dt-layout-table">
-                                    <div class="table-responsive dt-layout-cell  dt-layout-full">
+                                    <div class="dcf-overflow-x-auto dt-layout-cell  dt-layout-full" tabindex="0">
                                         <table id="poll-table" class="custom-table dataTable dtr-inline" aria-describedby="poll-table_info" style="width: 100%;">
                                             <colgroup>
                                                 <col data-dt-column="0" style="width: 400.766px;">
